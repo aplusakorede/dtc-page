@@ -13,7 +13,6 @@
     outline: none;
     border: none;
     text-decoration: none;
-    /* text-transform: capitalize; */
     transition: .2s linear;
 }
 html{
@@ -108,14 +107,10 @@ html::-webkit-scrollbar-thumb{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    /* background: url(img/logo.png) no-repeat; */
-    /* background-size: cover;
-    background-position: center center; */
 }
 .home .homeContent{
     width: 50%;
     float: left;
-    /* text-align: center; */
     padding: 4rem;
     animation: 3s ease-out 0s 1 slideInLeft;
 }
@@ -141,10 +136,8 @@ html::-webkit-scrollbar-thumb{
     color: var(--white);
     border-radius: 10px;
     padding: 1rem 2.9rem;
-    /* padding: 5px 10px; */
     width: 35%;
     cursor: pointer;
-    /* text-align: left; */
 }
 .home .homeContent .home-btn button:hover{
     font-size: 2rem;
@@ -162,6 +155,7 @@ section{
   position: relative;
   margin: auto;
   height: 50%;
+  animation: 3s ease-out 0s 1 slideInRight;
 }
 
 /* Hide the images by default */
@@ -374,7 +368,6 @@ section{
     display: flex;
     justify-content: space-between;
     flex-wrap:wrap;
-    
   }
   
   .container .card{
@@ -385,7 +378,6 @@ section{
     width:300px;
     height: 200px;
     transition:.4s;
-    
   }
   
   .container .card .face.face1{
@@ -410,7 +402,6 @@ section{
       0 0 50px #fff,
       -10px 0 80px #f0f,
       10px 0 80px #0ff;
-     
   }
   
   
@@ -418,17 +409,10 @@ section{
     opacity: .2;
     transition:  0.5s;
     text-align: center;
-    
-     
-    
-    
-   
-  
   }
   
   .container .card:hover .face.face1 .content{
     opacity: 1;
-   
   }
   
   .container .card .face.face1 .content i{
@@ -442,8 +426,6 @@ section{
     font-size: 1em;
     color: white;
     text-align: center;
-    
-  
   }
   
   .container .card .face.face1 .content a{
@@ -464,8 +446,6 @@ section{
   
   .container .card:hover .face.face2{
       transform: translateY(0);
-  
-  
   }
   
   .container .card .face.face2 .content p, a{
@@ -496,7 +476,6 @@ section{
     font-weight: bolder;
 }
 
-
 #about-info .info-right {
     float: right;
     width: 50%;
@@ -519,11 +498,7 @@ section{
     min-height: 100%;
  }
 
-
 /* Contact form */
-
-
-
 .container {
   position: relative;
   width: 100%;
@@ -898,10 +873,7 @@ textarea.input {
     font-size: 22px;
  }
 
-
- 
  #about-info .info-left img {
-     /* display: block; */
     margin: auto;
      width: 100%;
     border-radius: 50%;
@@ -909,7 +881,6 @@ textarea.input {
  }
  
  #about-info .info-left {
-    /* float: left; */
     width: 100%;
     min-height: 100%;
  }
@@ -924,5 +895,3 @@ textarea.input {
  }
 
   }
-
-
