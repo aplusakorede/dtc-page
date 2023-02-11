@@ -324,7 +324,11 @@ section{
 
     .home .homeContent{
         margin-left: 0;
-        width: 90%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -887,7 +891,6 @@ textarea.input {
 
 @media only screen and (max-width: 768px) {
   #about-info .info-right {
-    /* float: right; */
     width: 100%;
     align-items: center;
     min-height: 100%;
@@ -895,9 +898,7 @@ textarea.input {
     font-size: 22px;
  }
 
- h1, p {
-  text-align: center;
- }
+
  
  #about-info .info-left img {
      /* display: block; */
