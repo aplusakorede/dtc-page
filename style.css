@@ -213,6 +213,7 @@ section{
     gap: 1.5rem;
     border-radius: 3rem;
     margin-right: 3rem;
+    margin-bottom: 3.5rem;
 }
 .product .product-row .img img{
     height: 50vh;
@@ -244,8 +245,9 @@ section{
     background-color: #125bc9;
     color: var(--white);
     border-radius: .7rem;
-    padding: .7rem 2rem;
+    padding: 1.5rem;
     cursor: pointer;
+    
 }
 .product .product-row .product-content .orderNow button:hover{
     font-size: 2rem;
@@ -890,7 +892,7 @@ textarea.input {
  }
 
  .home .homeContent .home-btn button {
-  width: 100%;
+  width: 80vw;
   padding: 15px;
  }
 
