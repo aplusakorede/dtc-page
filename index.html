@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DebbyTee Collections</title>
+
+    <!-- swiper link  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- cdn icon link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- custom css file  -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+
+<body>
+
+    <!-- header section start here  -->
+    <header class="header">
+        <div class="logoContent">
+            <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+            <h1 class="logoName">DebbyTee </h1>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#product">products</a>
+            <a href="#about-info">about us</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icon">
+            <i class="fas fa-search" id="search"></i>
+            <i class="fas fa-shopping-cart"></i>
+            <i class="fas fa-bars" id="menu-bar"></i>
+            <!-- <button class="fas fa-moon" onclick="gfg_Run()"></button> -->
+        </div>
+
+        <div class="search">
+            <input type="search" placeholder="search...">
+        </div>
+    </header>
+
+    <!-- home section start here  -->
+    <section class="home" id="home">
+        <div class="homeContent">
+            <h2>Personalized Gifts For Everyone </h2>
+            <p>We help brands increase visibility with branded items and help foster relationships with functional personalized gifts.</p>
+            <div class="home-btn">
+                <a href="#product"><button>See More</button></a>
+            </div>
+        </div>
+        <!-- Slideshow container --> 
+    <div class="slideshow-container">
+        <div class="mySlides fade">        
+          <img src="img/IMG-20230208-WA0032.jpg"  width="450" height="400">
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="img/IMG-20230208-WA0031.jpg"  width="450" height="400">
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="img/IMG-20230208-WA0030.jpg"  width="450" height="400" >
+        </div>
+    
+        <div class="mySlides fade">
+          <img src="img/IMG-20230208-WA0029.jpg"  width="450" height="400">
+        </div>
+    
+        <div class="mySlides fade">
+          <img src="img/IMG-20230208-WA0028.jpg"  width="450" height="400" >
+        </div>
+        
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+    </section>
+
+    <!-- product section start here  -->
+    <section class="product" id="product">
+        <div class="heading">
+            <h2>Our Exclusive Products</h2>
+        </div>
+        <div class="swiper product-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="img/IMG-20230208-WA0025.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Chocolate</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa adipisci reiciendis assumenda.
+                        </p>
+                        <div class="orderNow">
+                            <button>Order Now </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="img/IMG-20230208-WA0001.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Chocolate</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa adipisci reiciendis assumenda.
+                        </p>
+                        <div class="orderNow">
+                            <button>Order Now </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="img/IMG-20230208-WA0002.jpg" alt=>
+                    </div>
+                    <div class="product-content">
+                        <h3>Chocolate</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa adipisci reiciendis assumenda.
+                        </p>
+                        <div class="orderNow">
+                            <button>Order Now </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="img/IMG-20230208-WA0003.jpg" alt=>
+                    </div>
+                    <div class="product-content">
+                        <h3>Chocolate</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa adipisci reiciendis assumenda.
+                        </p>
+                        <div class="orderNow">
+                            <button>Order Now </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper product-row">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="img/IMG-20230208-WA0004.jpg" alt=>
+                    </div>
+                    <div class="product-content">
+                        <h3>Chocolate</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa adipisci reiciendis assumenda.
+                        </p>
+                        <div class="orderNow">
+                            <button>Order Now </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="img/IMG-20230208-WA0005.jpg" alt=>
+                    </div>
+                    <div class="product-content">
+                        <h3>Chocolate</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa adipisci reiciendis assumenda.
+                        </p>
+                        <div class="orderNow">
+                            <button>Order Now </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="img/IMG-20230208-WA0006.jpg" alt="">
+                    </div>
+                    <div class="product-content">
+                        <h3>Chocolate</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa adipisci reiciendis assumenda.
+                        </p>
+                        <div class="orderNow">
+                            <button>Order Now </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box">
+                    <div class="img">
+                        <img src="img/IMG-20230208-WA0007.jpg" alt=>
+                    </div>
+                    <div class="product-content">
+                        <h3>Chocolate</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa adipisci reiciendis assumenda.
+                        </p>
+                        <div class="orderNow">
+                            <button>Order Now </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about-info">
+        <div class="abt-dtc">
+           <div class="info-left">
+            <img src="./img/logo.png" alt="logo">
+          </div>
+          <div class="info-right">
+            <h1 class="l-heading">About<span class="logoName"> DebbyTee Collections</span></h1>
+            <p>We help brands increase visibility with branded items and help foster relationships with functional personalized gifts.</p>
+            <p>Our services includes: Frames, Throw pillows, Cufflinks, Customised towel, Customised bottles,Mug awards, Birthday Surprises, Customised Journals & Pen base Lamps, Gifts Sourvenirs and so on. </p>
+           </div>
+        </div>
+      </section>
+
+    <!--  Contact -->
+    <div class="container">
+        <span class="big-circle"></span>
+        <img src="img/shape.png" class="square" alt="" />
+        <div class="form">
+          <div class="contact-info">
+            <h3 class="title">Let's get in touch</h3>
+            <p class="text">
+              Our services are top notch and we delivery them to you at the comfort of your home.
+            </p>
+  
+            <div class="info">
+              <div class="information">
+                <img src="img/location.png" class="icon" alt="" />
+                <p>Road 19, Peace Estate Baruwa-Inside. Lagos, Nigeria.</p>
+              </div>
+              <div class="information">
+                <img src="img/email.png" class="icon" alt="" />
+                <p>awoyemititilayo@gmail.com</p>
+              </div>
+              <div class="information">
+                <img src="img/phone.png" class="icon" alt="" />
+                <p>07081137333</p>
+              </div>
+            </div>
+  
+            <div class="social-media">
+              <p>Connect with us :</p>
+              <div class="social-icons">
+                <a href="https://web.facebook.com/debbyteecollection/">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/debbyteecollection/">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=awoyemititilayo@gmail.com">
+                  <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://wa.me/+2347081137333">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="contact-form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+  
+            <form action="index.html" autocomplete="off">
+              <h3 class="title">Contact us</h3>
+              <div class="input-container">
+                <input type="text" name="name" class="input" />
+                <label for="">Username</label>
+                <span>Username</span>
+              </div>
+              <div class="input-container">
+                <input type="email" name="email" class="input" />
+                <label for="">Email</label>
+                <span>Email</span>
+              </div>
+              <div class="input-container">
+                <input type="tel" name="phone" class="input" />
+                <label for="">Phone</label>
+                <span>Phone</span>
+              </div>
+              <div class="input-container textarea">
+                <textarea name="message" class="input"></textarea>
+                <label for="">Message</label>
+                <span>Message</span>
+              </div>
+              <input type="submit" value="Send" class="btn" />
+            </form>
+          </div>
+        </div>
+      </div>
+    
+      <!-- footer section start here  -->
+    <footer class="footer" id="contact">      
+
+        <div class="credit">
+            DebbyTee &copy; 2023 | Powered by <span ><a target="_blank" href="https://mail.google.com/mail/?view=cm&fs=1&to=codewithaplus@gmail.com" style="color: blue; font-size: 22px; cursor: pointer;" >Aplus</a></span> 
+        </div>
+    </footer>
+    
+    
+    <!-- swiper js link  -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file  -->
+    <script src="index.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
