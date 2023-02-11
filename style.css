@@ -138,6 +138,8 @@ html::-webkit-scrollbar-thumb{
     padding: 1rem 2.9rem;
     width: 35%;
     cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
 }
 .home .homeContent .home-btn button:hover{
     font-size: 2rem;
