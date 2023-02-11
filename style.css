@@ -890,7 +890,7 @@ textarea.input {
   }
 }
 
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   #about-info .info-right {
     /* float: right; */
     width: 100%;
@@ -932,3 +932,5 @@ textarea.input {
   text-align: center;
  }
   }
+
+
